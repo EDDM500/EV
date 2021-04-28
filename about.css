@@ -1,0 +1,36 @@
+*{margin: 0px; padding: 0px;}
+ul{list-style: none;}
+a{text-decoration: none;}
+
+header{
+    width: 1200px;
+    height: 95px;
+    background-color: #2d3a4b;
+    position: relative;
+}
+
+#top_menu{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    color: white;
+}
+
+#top_menu a{color: white;}
+
+.about{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.about div{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-shadow: -1px 0 1px black, 0 1px 1px black, 1px 0 1px black, 0 -1px 1px black;
+}
+
+#page{width: 1200px; margin: 0px auto;}
